@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES5",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "noEmit": true,
+        "strict": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "baseUrl": "./src",
+        "noImplicitThis": true,
+        "paths": {
+            "@/*": ["./*"]
+        }
+    },
+    "typeRoots": [
+        "./node_modules/@types",
+        "./typings"
+    ]
+}
